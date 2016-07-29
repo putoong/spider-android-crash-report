@@ -8,10 +8,11 @@
 import scrapy
 
 
-class TutorialItem(scrapy.Item):
+class AcrashItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
     # pass
-    title = scrapy.Field();
-    link = scrapy.Field();
-    desc = scrapy.Field();
+    text = scrapy.Field()
+    link = scrapy.Field()
+    title = scrapy.Field()
+    id = scrapy.Field()
